@@ -1,0 +1,24 @@
+{
+  "name": "cypress-store",
+  "version": "0.0.0-development",
+  "description": "Simple data persistence for cypress using Cypress Commands",
+  "main": "src/persistCommands",
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^10.9.0",
+    "semantic-release": "^19.0.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sylvain-viole/cypress-store.git"
+  }
+}
