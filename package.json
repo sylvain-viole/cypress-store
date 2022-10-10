@@ -2,7 +2,7 @@
   "name": "cypress-store",
   "version": "0.0.0-development",
   "description": "Simple data persistence for cypress using Cypress Commands",
-  "main": "src/persistCommands",
+  "main": "src/cyStoreCommands",
   "files": [
     "src"
   ],
