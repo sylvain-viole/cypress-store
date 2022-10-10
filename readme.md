@@ -2,7 +2,18 @@
 
 ![cypress version](https://img.shields.io/badge/cypress-10.9.0-brightgreen)
 
-> A simple Cypress plugin for persisting data between test scenarios
+> A simple Cypress plugin for passing data between test scenarios
+---
+
+## API
+
+| command | action |
+| - | - |
+| `cy.store`| stores data |
+| `cy.getStored`| gets stored data |
+| `cy.removeStored`| removes stored data |
+| `cy.flushStored`| flushes all stored datas |
+| `cy.logStored`| logs all stored datas |
 
 ---
 
