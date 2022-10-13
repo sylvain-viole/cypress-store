@@ -2,7 +2,7 @@
   "name": "cypress-store",
   "version": "0.0.0-development",
   "description": "Simple data persistence for cypress using Cypress Commands",
-  "main": "src/cyStoreCommands",
+  "main": "src",
   "files": [
     "src"
   ],
@@ -15,8 +15,7 @@
   "license": "MIT",
   "devDependencies": {
     "cypress": "^10.9.0",
-    "semantic-release": "^19.0.5",
-    "typescript": "^4.8.4"
+    "semantic-release": "^19.0.5"
   },
   "repository": {
     "type": "git",
