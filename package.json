@@ -23,6 +23,6 @@
     "url": "https://github.com/sylvain-viole/cypress-store.git"
   },
   "publishConfig": {
-    "access": "restricted"
+    "access": "public"
   }
 }
