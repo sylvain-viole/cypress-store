@@ -1,12 +1,12 @@
 {
   "name": "cypress-store",
-  "version": "0.0.0-development",
+  "version": "1.2.0",
   "description": "Simple data persistence for cypress using Cypress Commands",
   "main": "src",
   "files": [
     "src"
   ],
-    "types": "src",
+  "types": "src",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "semantic-release": "semantic-release"
