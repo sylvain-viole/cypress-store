@@ -15,6 +15,9 @@ Cypress.Commands.add("getStored", (key, options) => {
 });
 
 Cypress.Commands.add("removeStored", (key, options) => {
+  if (!key) throw TypeError(`Missing "key" parameter`);
+  if (typeof key !== "string")
+    throw TypeError(`"key" parameter must be of type "string"`);
   dataStorage[`${key}`] = null;
 });
 
