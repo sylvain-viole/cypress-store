@@ -4,6 +4,7 @@
 );
 
 const assertedValidValueTypes = [
+  { type: "string", value: "bonjour" },
   { type: "boolean", value: true },
   { type: "number", value: 123 },
   { type: "array", value: [1, "a", true] },
