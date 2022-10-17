@@ -36,26 +36,39 @@ import "cypress-store";
 - To store data :
 
 ```javascript
-cy.store("key", "value");
+cy.store(<key>, <value>);
 ```
+| parameter | mandatory | type |
+|--|--|--|
+|`key` | ✅ | string |
+|`value` |  | any |
+
+
 
 - To get stored data :
 
 ```javascript
-cy.getStored("key");
+cy.getStored(<key>);
 //Cypress wraps the retrieved value so you can access it with :
-cy.getStored("key").should("eql", "value");
+cy.getStored(<key>).should("eql", <value>);
 // Or :
-cy.getStored("key").then((key) => {
+cy.getStored(<key>).then((key) => {
   console.log(key);
 });
 ```
+| parameter | mandatory | type |
+|--|--|--|
+|`key` | ✅ | string |
 
 - To remove a stored data:
 
 ```javascript
-cy.removeStored("key");
+cy.removeStored(<key>);
 ```
+| parameter | mandatory | type |
+|--|--|--|
+|`key` | ✅ | string |
+
 
 - To flush all datas:
 
